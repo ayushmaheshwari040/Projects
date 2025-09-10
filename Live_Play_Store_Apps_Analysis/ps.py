@@ -9,7 +9,7 @@ import streamlit as st
 st.markdown("<h1 style='color:yellow;'> Live Play Store App's Analysis </h1>", unsafe_allow_html=True)
 
 # Set Image
-st.image("playstore.png", width=60)
+st.image("./playstore.png", width=60)
 st.markdown("<br>",unsafe_allow_html=True)
 
 # Input text
@@ -168,5 +168,6 @@ if ti:
         f"<a href='https://play.google.com/store/apps/details?id={appid}&hl=en_IN' style='color:blue; text-decoration:none;'>https://play.google.com/store/apps/details?id={appid}&hl=en_IN</a>",
         unsafe_allow_html=True
     )
+
 
 
